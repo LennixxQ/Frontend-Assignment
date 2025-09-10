@@ -1,80 +1,92 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>First Assignment</title>
-    <link rel="stylesheet" type="text/css" href="firstCSS.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>Document</title>
 </head>
 <body>
-    <a href="https://www.w3schools.com/html/html_formatting.asp" style="text-decoration: underline;" target="_blank">Phrasing and Formatting Tags Table</a>
-    <h1>First Assignment</h1>
-
-    <h2>HTML Tags</h2>
-    <p>Hello this is the p tag</p>
-    <pre>This is the tag which accepts spaces       Space applied</pre>
-    <h3>Languages To Learn</h3>
-    <ul type="square">
-        <li>Angular</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-    </ul>
-    <h3>My Favourite Foods</h3>
-    <ol type="i" start="8">
-        <li>Pasta</li>
-        <li>Tacos</li>
-        <li>Soft Pretzels</li>
-        <li>Pasta</li>
-        <li>Tacos</li>
-        <li>Soft Pretzels</li>
-    </ol>
-
-    <h3>Our Drinks</h3>
-    <ul>
-        <li>Hot</li>
-        <ul type="circle">
-            <li>Coffee</li>
-            <li>Tea</li>
-        </ul>
-        <li>Cold</li>
-        <ul type="circle">
-            <li>Juices</li>
-            <ol type="1">
-                <li>Apple</li>
-                <li>GrapeFruit</li>
-                <li>Orange</li>
-            </ol>
-            <li>Sparkling Water</li>
-        </ul>
-    </ul>
-
-    <h3>Specialization</h3>
-    <ol type="a" start="4" reversed>
-        <li>Frontend</li>
-        <ul type="circle">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>Frameworks & Libraries</li>
-            <ol type="i">
+    <div id="maincontainer">
+        <div id="mainheading"><h1>First assignment</h1></div>
+        <h2 id="heading">Html Tags</h2>
+        <p>hello this is p tag</p>
+        <pre>this is the tag which accepts spaces        space applied</pre>
+        
+        <div class="field">
+            <h3 id="subheading">Language to learn</h3>
+            <ul type="square">
                 <li>Angular</li>
-                <li>React</li>
+                <li>Html</li>
+                <li>css</li>
+                <li>JavaScript </li>
+                <li>python</li>
+            </ul>
+           
+            <ol type="i" start="8">
+                <li>pasta</li>
+                <li>Tacos</li>
+                <li>Soft prezels</li>
+                <li>pasta</li>
+                <li>tacos</li>
+                <li>soft prezels</li>
             </ol>
-        </ul>
-        <li>Backend</li>
-        <ul type="square" >
-            <li>JAVA</li>
-            <ol type="1">
-                <li>Spring</li>
+        </div>
+
+        <div class="field">
+            <h3>Our drinks</h3>
+            <ul>
+               <li>hot</li> 
+                <ul type="circle">
+                    <li>coffee</li>
+                    <li>tea</li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Cold</li>
+                <ul type="circle">
+                    <li>Juices</li>
+                    <ol type="1">
+                        <li>Apple</li>
+                        <li>Grapefruite</li>
+                        <li>Orange</li>
+                    </ol>
+                    <li>Sparkling Water</li>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="field">
+            <h3>Specialization</h3>
+            <ol type="a" start="d" reversed>
+                <li>Frontend</li>
+                <ul type="circle">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>js</li>
+                    <li>Frameworks & Libraries</li>
+                    <ol type="i">
+                        <li>Angular</li>
+                        <li>React</li>
+                    </ol>
+                </ul>
+                <li>Backend</li>
+                <ul type="square">
+                    <li>Java</li>
+                    <ol type="1">
+                        <li>Spring</li>
+                    </ol>
+                    <li>Python</li>
+                    <li>.Net</li>
+                    <ol type="A" start="D" reversed>
+                        <li>MVC</li>
+                        <li>Core</li>
+                    </ol>
+                </ul>
+                <li>Database</li>
+                <li>Cloud</li>
             </ol>
-            <li>Python</li>
-            <li>.NET</li>
-            <ol type="A" start="4" reversed>
-                <li>MVC</li>
-                <li>Cores</li>
-            </ol>
-        </ul>
-        <li>Database</li>
-        <li>Cloud</li>
-    </ol>
+        </div>
+    </div>
 </body>
 </html>

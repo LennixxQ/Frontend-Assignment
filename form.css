@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    padding: 20px;
+}
+
+#heading {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+    border: none;   
+    border-radius: 40px;
+    width: 45rem;
+    height: auto;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 20px;
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    top: 10px;
+}
+
+form {
+    width: 45rem;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+fieldset {
+    font-weight: 500;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.inputarea {
+    font-weight: 500;
+    margin: 8px;
+    display: grid;
+}
+
+input, select, textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 32px;
+    padding: 5px 8px;
+}
+
+textarea {
+    height: 60px;
+    resize: vertical;
+}
+
+#photo {
+    display: flex;
+    align-items: center;
+}
+
+#gender {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#skill {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    gap: 10px;
+}
+
+#selectitems {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+select {
+    height: 32px;
+    border-radius: 6px;
+}
+
+.button1 {
+    height: 38px;
+    width: 98%;
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button2 {
+    height: 38px;
+    width: 98%;
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}

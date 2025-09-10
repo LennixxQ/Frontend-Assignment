@@ -1,0 +1,35 @@
+body {
+    background-color: #e6e6fa;
+}
+
+.image {
+    height: 80vh;
+    width: 140vh;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+}
+
+#div {
+    background: rgba(48, 25, 52, 0.7);
+    height: 80vh;
+    width: 140vh;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    border: 2px solid #d1c4e9;
+}
+
+h1 {
+    margin-top: 500px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
