@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+
+  <body>
+    <div>
+      <form method="post" id="profile-form">
+        <div>
+          <fieldset>
+            <legend>Basic Details</legend>
+            <div>
+              <div><label for="fullName">Full Name: </label></div>
+              <div>
+                <input
+                  type="text"
+                  name="fullName"
+                  id="fullName"
+                  placeholder="John Doe"
+                  required
+                />
+              </div>
+              <br />
+            </div>
+            <div>
+              <div><label for="email">Email: </label></div>
+              <div>
+                <input type="email" name="emailID" id="emailID" required />
+              </div>
+              <br />
+            </div>
+            <div>
+              <div><label for="password">Password: </label></div>
+              <div>
+                <input type="password" name="password" id="password" required />
+              </div>
+              <br />
+            </div>
+            <div>
+              <div><label for="confirmPassword">Confirm Password: </label></div>
+              <div>
+                <input
+                  type="password"
+                  name="confirmPassword"
+                  id="confirmPassword"
+                  required
+                />
+              </div>
+              <br />
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+              <label for="contactInfo">Contact Number: </label>
+            </div>
+            <br />
+            <div>
+              <input type="tel" name="contactInfo" id="contactInfo" />
+            </div>
+            <br />
+            <div>
+              <label for="websiteUrl">Website URL: </label>
+            </div>
+            <br />
+            <div>
+              <input type="url" name="websiteUrl" id="websiteURL" />
+            </div>
+            <br />
+            <div>
+              <label for="uploadPicture">Upload Picture: </label>
+            </div>
+            <br />
+            <div>
+              <input type="file" name="profilePicture" id="profilePicture" />
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Selection Inputs</legend>
+            <div>
+              <label for="gender">Gender</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="gender"
+                id="gender-male"
+                value="Male"
+                required
+              />Male
+              <input
+                type="radio"
+                name="gender"
+                id="gender-female"
+                value="Female"
+              />Female
+            </div>
+            <br />
+            <div>
+              <label for="skills">Skills</label>
+            </div>
+            <div>
+              <input type="checkbox" name="html" id="html" />HTML
+              <input type="checkbox" name="CSS" id="CSS" />CSS
+              <input type="checkbox" name="JS" id="JS" />JavaScript
+              <input type="checkbox" name="React" id="React" />React
+              <input type="checkbox" name="Angular" id="Angular" />Angular
+            </div>
+            <br />
+            <div>
+              <label for="location">Preferred Location: </label>
+            </div>
+            <div>
+              <select name="location" id="location">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Russia">Russia</option>
+                <option value="China">China</option>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Advanced Inputs</legend>
+            <div>
+              <label for="DOB">Birth Date</label>
+            </div>
+            <div>
+              <input type="date" name="dob" id="dob" />
+            </div>
+            <br />
+            <div>
+              <label for="week">Week</label>
+            </div>
+            <div>
+              <input type="week" name="week" />
+            </div>
+            <br />
+            <div>
+              <label for="month">Month</label>
+            </div>
+            <div>
+              <input type="month" name="month" id="month" />
+            </div>
+            <br />
+            <div>
+              <label for="time">Time</label>
+            </div>
+            <div>
+              <input type="time" name="time" id="time" />
+            </div>
+            <br />
+            <div>
+              <label for="localTimeandDate">Local Date and Time</label>
+            </div>
+            <div>
+              <input
+                type="datetime-local"
+                name="localTimeandDate"
+                id="localTimeandDate"
+              />
+            </div>
+            <br />
+            <div><label for="color">Color</label></div>
+            <div>
+              <input type="color" name="color" id="color" />
+            </div>
+            <br />
+            <div>
+              <label for="Age">Age: </label>
+            </div>
+            <div>
+              <input type="number" name="age" id="age" min="0" max="120" />
+            </div>
+            <br />
+            <div>
+              <label for="experience">Experience: </label>
+            </div>
+            <div>
+              <input type="range" min="0" max="20" />
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Text Inputs</legend>
+            <div>
+              <label for="yourself">About YourSelf</label>
+            </div>
+            <div>
+              <textarea
+                id="yourself"
+                name="yourself"
+                rows="4"
+                cols="50"
+              ></textarea>
+            </div>
+            <br />
+            <div>
+              <label for="address">Address</label>
+            </div>
+            <div>
+              <textarea
+                id="address_line1"
+                name="address_line1"
+                rows="2"
+                cols="50"
+                placeholder="Address Line 1"
+              ></textarea>
+              <br />
+              <textarea
+                id="address_line2"
+                name="address_line2"
+                rows="2"
+                cols="50"
+                placeholder="Address Line 2"
+              ></textarea>
+              <br />
+              <textarea
+                id="city"
+                name="city"
+                rows="1"
+                cols="50"
+                placeholder="City"
+              ></textarea>
+              <br />
+              <textarea
+                id="state"
+                name="state"
+                rows="1"
+                cols="50"
+                placeholder="State"
+              ></textarea>
+              <br />
+              <textarea
+                id="zip"
+                name="zip"
+                rows="1"
+                cols="50"
+                placeholder="ZIP/Postal Code"
+              ></textarea>
+            </div>
+            <br />
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Hidden Field</legend>
+            <div>
+              <input type="hidden" name="form-version" value="v2" />
+            </div>
+          </fieldset>
+        </div>
+        <div>
+          <button type="reset" form="profile-form" id="profile-form">
+            Reset
+          </button>
+          <br />
+          <button type="submit" form="profile-form" id="profile-form">
+            Create Profile
+          </button>
+          <br />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
