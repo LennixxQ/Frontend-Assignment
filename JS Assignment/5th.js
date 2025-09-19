@@ -25,7 +25,7 @@ function calTip(Bill){
     return Bill;
 }
 
-function X(Amount){
+function calculateTip(Amount){
     let finalTotal = Amount.map(x => {
         if(x >= 50 && x <= 300){
             return x + x * usualTip;
@@ -36,7 +36,7 @@ function X(Amount){
     return finalTotal;
 }
 
-let tipsAndTotals = X(Bills);
+let tipsAndTotals = calculateTip(Bills);
 console.log(tipsAndTotals);
 
 
