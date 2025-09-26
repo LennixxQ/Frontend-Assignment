@@ -3,7 +3,7 @@ let orderArray = [];
 function takeOrder() {
   let customerName = prompt("Enter Name");
   let orders = prompt("Enter Order");
-  if (!orders || !orders.trim()) {
+  if (!orders.trim()) {
     alert("No items entered. Order skipped!");
     return;
   }
